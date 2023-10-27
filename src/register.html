@@ -2,9 +2,9 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/style/reset.css">
-    <link rel="stylesheet" href="src/style/style.css">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
     <link rel="shortcut icon" href="src/images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Mega Outlet</title>
@@ -16,14 +16,14 @@
         </a>
         <nav class="navegacao">
             <ul class="menu-um">
-                <li class="item"><a href="./index.html"><abbr title="Voltar"><i class="fas fa-sign-in-alt"></i></abbr></a></li>
+                <li class="item"><a href="login.html"><abbr title="Voltar"><i class="fas fa-sign-in-alt"></i></abbr></a></li>
             </ul>
         </nav>
     </header>
     <div class="login">
-        <form class="card" action="./index.html" target="_self">
-            <div class="cabecalho-card">
-                <h2>Login</h2>
+        <form class="card" action="./login.html" target="_self">
+            <div class="cabecalho-card register">
+                <h2>Registrar</h2>
             </div>
             <div class="conteudo-card">
                 <div class="area-conteudo-card">
@@ -31,14 +31,24 @@
                     <input type="text" class="usuario" autocomplete="off">
                 </div>
                 <div class="area-conteudo-card">
+                    <label for="cpf">CPF</label>
+                    <input type="number" class="password" autocomplete="off">
+                </div>
+                <div class="area-conteudo-card">
+                    <label for="cep">CEP</label>
+                    <input type="number" class="password" autocomplete="off">
+                </div>
+                <div class="area-conteudo-card">
                     <label for="password">Senha</label>
+                    <input type="password" class="password" autocomplete="off">
+                </div>
+                <div class="area-conteudo-card">
+                    <label for="password">Confirmar Senha</label>
                     <input type="password" class="password" autocomplete="off">
                 </div>
             </div>
             <div class="rodape-card">
-                <input type="submit" value="login" class="submit">
-                <a href="#" class="outros">Esqueceu a senha ?</a>
-                <a href="register.html" class="outros">Registrar</a>
+                <input type="submit" value="Registrar" class="submit">
             </div>
         </form>
     </div>
